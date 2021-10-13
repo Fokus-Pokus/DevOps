@@ -1,7 +1,7 @@
-FROM python:3.8.5
+FROM python
 
 WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT ["python3", "main.py"]
+ENTRYPOINT ["python", "main.py"]
