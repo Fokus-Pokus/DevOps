@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT ["python", "cgi.py"]
+ENTRYPOINT ["python", "main.py"]
